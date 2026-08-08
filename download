@@ -1,0 +1,11 @@
+# Local development only - this file is gitignored, never committed, never
+# reaches the GitHub Actions build. For the deployed site, src/config.js is
+# what actually matters (see the comment at the top of that file for why).
+#
+# GEMINI_API_KEY is intentionally left out entirely - it lives server-side in
+# Supabase's system_settings table instead, read only by the gemini-chat Edge
+# Function. Do not add a real Gemini key to this file either.
+
+VITE_SUPABASE_URL=https://sxcyfjhuacuzybxgoxtp.supabase.co
+VITE_SUPABASE_ANON_KEY=sb_publishable_IKn546qB_JNQPom0YyxhIg_HoUpmQQ-
+VITE_NETWORK_CODE=12131415
